@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Artisan;
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->describe('Display an inspiring quote');
+
+//php artisan make:command TaskReminder
+//puedes registrar ese comando dentro de app/Console/Kernel.php para ejecutarlo como una tarea programada o manualmente.

@@ -22,9 +22,10 @@ class Kernel extends ConsoleKernel
      * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
      * @return void
      */
+    // se pone la hora de la ejecucion
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')->hourly();
+        $schedule->command('cleanup:old-records')->dailyAt('00:00');
     }
 
     /**
