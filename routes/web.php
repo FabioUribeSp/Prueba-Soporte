@@ -18,6 +18,6 @@ Route::resource('tasks', TaskController::class);
 Route::post('/tasks', [TaskController::class, 'store']);
 Route::put('/tasks/{id}', [TaskController::class, 'update']);
 Route::delete('/tasks/{id}', [TaskController::class, 'destroy']);
-Route::get('/', function () {
+Route::get('/tasks-view', function () {
     return view('tasks');
 });
