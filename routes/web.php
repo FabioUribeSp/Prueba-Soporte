@@ -12,6 +12,9 @@ use App\Http\Controllers\TaskController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Esto generaría las rutas index, create, store, show, edit, update, y destroy de forma automática.
+Route::resource('tasks', TaskController::class);
+//
 Route::post('/tasks', [TaskController::class, 'store']);
 Route::put('/tasks/{id}', [TaskController::class, 'update']);
 Route::delete('/tasks/{id}', [TaskController::class, 'destroy']);
