@@ -72,6 +72,9 @@ El proyecto contiene errores tanto en el backend (Laravel/PHP) como en el fronte
  3.Probar la aplicación después de realizar las correcciones para asegurarte de que todo funcione como se espera.
  
 **Entrega**
+entrega Esteban David salas cortina 
+https://github.com/estebansalas94/Prueba-Soporte.git
+
 
 Sube el código corregido a un repositorio de GitHub y envíanos el enlace. Asegúrate de describir los problemas que encontraste y cómo los solucionaste en este archivo README.md.
 
